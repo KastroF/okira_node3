@@ -72,6 +72,11 @@ exports.signUp = (req, res) => {
   );
 };
 
+exports.sendCode = () => {
+
+  
+}
+
 exports.signIn = (req, res) => {
   
   console.log(req.body);
